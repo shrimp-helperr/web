@@ -1,4 +1,5 @@
 import { useEffect, useRef, useCallback } from 'react';
+import { Link } from 'react-router';
 import gsap from 'gsap';
 import { ArrowRight, Database, TrendingUp, Settings, Lightbulb } from 'lucide-react';
 
@@ -195,7 +196,7 @@ export default function HeroSection() {
     <section
       ref={sectionRef}
       className="relative w-full min-h-screen flex items-center overflow-hidden"
-      style={{ background: '#0a1628' }}
+      style={{ background: '#050505' }}
     >
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
@@ -332,19 +333,19 @@ export default function HeroSection() {
 
           {/* CTA */}
           <div className="hero-line flex items-center gap-6">
-            <a
-              href="/projects"
+            <Link
+              to="/projects"
               className="group inline-flex items-center gap-3 px-8 py-3.5 bg-white/10 hover:bg-white/20 border border-white/20 text-white rounded-full text-sm font-medium transition-all duration-300 hover:shadow-[0_0_40px_rgba(255,255,255,0.15)] backdrop-blur-sm"
             >
               <span>查看项目</span>
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-            </a>
-            <a
-              href="/contact"
+            </Link>
+            <Link
+              to="/contact"
               className="text-sm text-white/40 hover:text-white/80 transition-colors duration-300"
             >
               联系我 →
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -353,7 +354,7 @@ export default function HeroSection() {
       <div
         className="absolute bottom-0 left-0 right-0 h-40 z-10"
         style={{
-          background: 'linear-gradient(to top, #0a1628, transparent)',
+          background: 'linear-gradient(to top, #050505, transparent)',
         }}
       />
 
