@@ -40,7 +40,7 @@
     "id": 2,
     "title": "淘宝用户行为分析与用户增长策略研究",
     "subtitle": "淘宝用户行为分析（优化版）",
-    "image": "images/project-taobao.png",
+    "image": "images/project-taobao.jpg",
     "tags": ["Python", "SQL", "Pandas", "Tableau", "Power BI"],
     "stats": [
       { "value": "100万+", "label": "行为数据" },
@@ -75,7 +75,7 @@
     "id": 3,
     "title": "智能穿戴连锁企业经营分析与采购优化",
     "subtitle": "Python｜Pandas｜Scipy｜数据可视化｜线性规划",
-    "image": "images/power-bi.png",
+    "image": "images/power-bi.jpg",
     "tags": ["Python", "Pandas", "Scipy", "数据可视化", "线性规划"],
     "stats": [
       { "value": "4404万", "label": "销售目标" },
