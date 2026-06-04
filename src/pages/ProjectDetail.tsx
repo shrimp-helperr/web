@@ -35,11 +35,13 @@ export default function ProjectDetail() {
   const contentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    fetch('/projects.json')
+    const base = import.meta.env.BASE_URL;
+    fetch(base + 'projects.json')
       .then((res) => res.json())
       .then((data: Project[]) => {
-        setAllProjects(data);
-        const found = data.find((p) => p.id === projectId);
+        const mapped = data.map((p) => ({ ...p, image: base + p.image }));
+        setAllProjects(mapped);
+        const found = mapped.find((p) => p.id === projectId);
         setProject(found || null);
       })
       .catch((err) => console.error('Failed to load projects:', err));

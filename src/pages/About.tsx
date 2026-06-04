@@ -153,7 +153,7 @@ export default function About() {
             <div className="lg:col-span-2 relative mt-8 lg:mt-16">
               <div className="liquid-glass rounded-2xl overflow-hidden max-w-xs mx-auto lg:mx-0 lg:ml-auto">
                 <img
-                  src="/images/hero-portrait.jpg"
+                  src={import.meta.env.BASE_URL + 'images/hero-portrait.jpg'}
                   alt="何思源"
                   className="w-full aspect-[4/5] object-cover"
                 />

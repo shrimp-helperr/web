@@ -249,9 +249,10 @@ export default function ProjectsSection() {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
-    fetch('/projects.json')
+    const base = import.meta.env.BASE_URL;
+    fetch(base + 'projects.json')
       .then((res) => res.json())
-      .then((data) => setProjects(data))
+      .then((data: Project[]) => setProjects(data.map((p) => ({ ...p, image: base + p.image }))))
       .catch((err) => console.error('Failed to load projects:', err));
   }, []);
 

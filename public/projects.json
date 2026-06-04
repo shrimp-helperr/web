@@ -3,7 +3,7 @@
     "id": 1,
     "title": "珀莱雅美妆电商精准营销与供应链协同智能决策系统",
     "subtitle": "计算机设计大赛（队长）｜国赛晋级",
-    "image": "/images/project-marketing.jpg",
+    "image": "images/project-marketing.jpg",
     "tags": ["Python", "SQL", "Pandas", "Uplift", "XGBoost", "Apriori", "Power BI", "LLM API"],
     "stats": [
       { "value": "10万+", "label": "用户数据" },
@@ -40,7 +40,7 @@
     "id": 2,
     "title": "淘宝用户行为分析与用户增长策略研究",
     "subtitle": "淘宝用户行为分析（优化版）",
-    "image": "/images/project-taobao.png",
+    "image": "images/project-taobao.png",
     "tags": ["Python", "SQL", "Pandas", "Tableau", "Power BI"],
     "stats": [
       { "value": "100万+", "label": "行为数据" },
@@ -75,7 +75,7 @@
     "id": 3,
     "title": "智能穿戴连锁企业经营分析与采购优化",
     "subtitle": "Python｜Pandas｜Scipy｜数据可视化｜线性规划",
-    "image": "/images/power-bi.png",
+    "image": "images/power-bi.png",
     "tags": ["Python", "Pandas", "Scipy", "数据可视化", "线性规划"],
     "stats": [
       { "value": "4404万", "label": "销售目标" },
@@ -111,7 +111,7 @@
     "id": 4,
     "title": "共享出行供需分析",
     "subtitle": "Urban Mobility Analytics",
-    "image": "/images/project-mobility.jpg",
+    "image": "images/project-mobility.jpg",
     "tags": ["K-Means", "Forecasting", "Heatmap", "Operations"],
     "stats": [
       { "value": "15万", "label": "骑行订单" },
@@ -145,7 +145,7 @@
     "id": 5,
     "title": "ESG空间计量研究",
     "subtitle": "Robot Adoption & ESG Performance",
-    "image": "/images/project-esg.jpg",
+    "image": "images/project-esg.jpg",
     "tags": ["Panel Data", "SDM", "Threshold Model"],
     "stats": [
       { "value": "2,847", "label": "企业样本" },

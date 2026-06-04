@@ -136,7 +136,7 @@ export default function Resume() {
                   <p className="text-[#A1A1AA] leading-relaxed">{resumeData.profile.summary}</p>
                 </div>
                 <div className="w-24 h-24 rounded-2xl overflow-hidden flex-shrink-0">
-                  <img src="/images/hero-portrait.jpg" alt="头像" className="w-full h-full object-cover" />
+                  <img src={import.meta.env.BASE_URL + 'images/hero-portrait.jpg'} alt="头像" className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
